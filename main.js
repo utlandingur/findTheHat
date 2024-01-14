@@ -16,7 +16,7 @@ let startingYLocation;
 //Field constructor creates two-dimensional array representing the “field” itself
 // A field consists of a grid containing “holes” (O) and one “hat” (^).
 // We use a neutral background character (░) to indicate the rest of the field itself.
-//The player will begin in the upper-left of the field, and the player’s path is represented by *.
+//The player’s initial location and their path is represented by *.
 
 class Field {
   constructor() {
